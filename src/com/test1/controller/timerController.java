@@ -31,7 +31,7 @@ public class timerController {
 		if(list.size()>0){
 			for(AdReceivable ar:list){
 				System.out.println(ar.getAd_owner_id()+"--"+ar.getAccount_moeny()+"--"+ar.getFinder());
-			}
+			 }
 		}
 	}
 }
