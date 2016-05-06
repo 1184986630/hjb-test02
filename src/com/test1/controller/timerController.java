@@ -16,7 +16,7 @@ import com.test1.service.TestService;
  * @author dawn
  *
  */
-//@Component 
+@Component 
 public class timerController {
 	@Value("${dawn}")
 	private  String dawn;
