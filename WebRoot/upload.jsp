@@ -16,7 +16,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<meta http-equiv="expires" content="0">    
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page">
-	<script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+<script src="js/jquery-1.8.3.js"></script>
 	
 	<!--
 	<link rel="stylesheet" type="text/css" href="styles.css">
@@ -30,7 +30,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</form>
   </body>
   
-  <script type="text/javascript">
+  <script>
   $("#importBtn").click(function(){
 	  alert(1);
   })

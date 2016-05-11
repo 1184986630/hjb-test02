@@ -23,7 +23,7 @@ public class SearchController {
 	 * Excel中数据导入数据库
 	 * @author dawn
 	 */
-	@RequestMapping(value = "/test" , method = RequestMethod.POST)
+	@RequestMapping(value = "/test" , method = RequestMethod.GET)
 	@ResponseBody	
 	public Map<String,Object> statementwasdf() throws UnsupportedEncodingException{
 		//获取浏览器信息
